@@ -1,9 +1,12 @@
-# chaygpt.github.io
-chaygpt is the best tea shop in helwan and the whole world.
+# ChayGPT.github.io  
+ChayGPT is the best tea shop in Helwan and the whole world.  
 
-stay tuned for the best tea
+Stay tuned for the best tea! ☕✨  
 
-#this is the files structure\n
+---
+
+## 📂 File Structure  
+```bash
 chaygpt.github.io
 ├── css
 │   └── style.css
