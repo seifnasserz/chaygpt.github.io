@@ -18,3 +18,7 @@ chaygpt.github.io
 ├── images
 ├── index.html
 └── README.md
+---
+## 🏷️ Naming Conventions 🏷️  
+- **CSS Files**: Use kebab-case (`some-awesome-style.css`).  
+- **HTML Files**: Use lowercase (`about.html`, `menu.html`).  
