@@ -10,10 +10,10 @@ Stay tuned for the best tea! ☕✨
 chaygpt.github.io
 ├── css
 │   └── style.css
-├── images
-├── index.html
 ├── pages
 │   ├── about.html
 │   ├── contact.html
 │   └── menu.html
+├── images
+├── index.html
 └── README.md
