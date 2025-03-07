@@ -22,5 +22,38 @@ chaygpt.github.io
 ├── index.html
 └── README.md
 ```
+## 🏷️ Products
+-tea
+-mint tea
+-lemon tea
+-milk tea
+-green tea
+-ice tea
 
+-Ment
+-Anise
+-Moringa
+-Hot choclate
+-Cinnamon
+-sahlab
+
+-coffe
+-cafe au lite
+-latte
+-cappuccino
+-espresso
+-mocha
+-flate white
+-nescafe
+-matcha
+-ice coffe
+
+ -mango juice
+ -orange juice
+ -limon juice
+ -mint limon juice
+ -strawberry juice
+ -milon juice
+ 
+ 
 
