@@ -18,13 +18,11 @@ header {
     border-radius: 60px;
 }
 .brand-name{
-    position: absolute;
-    left: 800px;
     font-family: 'Courier New', Courier, monospace;
     font-size: 40px;
     font-weight: 900;
     color: #e2d5c8;
-    
+    margin-left: 200px;
 }
 nav {
     display: flex;
@@ -33,7 +31,7 @@ nav {
     padding: 10px 50px;
     background-color: #BDB395;
     border-radius: 0 0 50px 50px;
-    box-shadow: 0px 1px 4px 0.0000001px black
+    box-shadow: 0px 1px 3px 0.0000001px black;
 
 }
 
@@ -52,13 +50,13 @@ nav {
     font-weight: 900;
     font-size: larger;
     cursor: pointer;
-    transition: background-color 0.3s;
-    transition: transform 0.9s;
+    transition: all 0.3s ease;
 }
 
 .links:hover {
-    background-color: #d3c8b0;
-    transform: translatey(-5px);
+    background-color: #C1A882;
+    transform: translatey(-3px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     
 }
 
@@ -70,12 +68,34 @@ nav {
     border-radius: 25px;
 }
 
-
+.main-container {
+    margin-left: -15px;
+    margin-right: 10px;
+    display: flex;
+    align-items: stretch; 
+    justify-content: center; 
+    gap: 15px; 
+    width: 100%; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+} 
 
 .welcome-message {
+    font-size: 48px;
+    font-weight: 700;
     font-family: "oswald";
+    color: #4A3F35;
+}
+.main-content-text {
+    font-family: "cairo";
+    line-height: 1.6;
+    font-weight: 400;
+    position: relative;
+    left: 30px;
+    width: 80%;
+    color: #5A4E42;
 }
 .main-content {
+    flex: 4;
     position: relative;
     display: inline-block;
     height: auto;
@@ -85,17 +105,29 @@ nav {
     border-radius: 40px ;
     background-color: #D5C7A3;
     width: 60%;
+    text-align: left;
 }
-.main-content-text {
-    font-family: "cairo";
-    font-weight: 400;
+
+.floating-image {
     position: relative;
-    left: 30px;
-    width: 80%;
-    overflow: auto;
+    transform: scale(.95);
+    width: auto; 
+    height: 370px ; 
+    max-height: 100%;
+    border-radius: 40px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+    object-fit: cover;
+    top: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    
+}
+.floating-image:hover {
+    transform: scale(1);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
 }
 
 .items {
+    justify-content: space-between;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -108,7 +140,14 @@ nav {
 }
 
 .item {
-    display: inline-block;
-    padding: 20px;
-    border-radius: 20px;
+    border-radius: 15px;
+    transition: transform 0.3s ease;
+}
+
+.item img {
+    border-radius: 15px;
+    transition: transform 0.3s ease;
+}
+.item img:hover {
+    transform: scale(1.1);
 }
