@@ -129,15 +129,14 @@ nav {
     transform: scale(1);
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
 }
-.footer-container {
-    display: flex; 
-    justify-content: space-between; 
-    align-items: center; 
-    padding: 20px;
-    background-color: #C1D8C3;
-    border-radius: 30px;
-    width: 80%;
-    max-width: 900px;
+
+.items {
+    gap: 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width:1000px;
+    height: 400px;
     margin: 20px auto;
 }
 
@@ -151,19 +150,26 @@ nav {
 .item {
     border-radius: 15px;
     transition: transform 0.3s ease;
-    padding: 20px;
+    padding: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
 }
 
+.item:hover {
+    border: 4px solid #eee;
+    border-radius: 15px;
+    transform: scale(1.1);
+
+}
+
 .item img {
     border-radius: 15px;
+    border-width: 20px;
     transition: transform 0.3s ease;
-}
-.item img:hover {
-    transform: scale(1.1);
+    width: 250px;
+    height: 250px;
 }
 
 .item p {
