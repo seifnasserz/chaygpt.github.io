@@ -126,8 +126,8 @@ nav {
 
 .items {
     display: flex;
-    gap: 20px;
-    flex-wrap: wrap;
+    gap: 30px;
+    flex-wrap: nowrap;
     justify-content: center;
     width:100%;
     max-width: 1000px;
@@ -171,9 +171,9 @@ nav {
     border-radius: 25px;
     cursor: pointer;
     transition: background-color 0.3s ease, transform 0.3s ease;
-    height: 6%;
-    top: 35%;
-    left: 5%;
+    align-self: center; /* Align with items */
+    margin-left: 20px; /* Add spacing */
+    white-space: nowrap;
 }
 .see-more:hover {
     background-color: #5A4E42;
