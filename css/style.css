@@ -162,16 +162,20 @@ nav {
 }
 /*button*/
 .see-more {
+    position: relative;
     text-decoration: none;
-    background-color: #007bff;
-    color: white;
+    background-color: #4A3F35;
+    color: #eee;
     padding: 12px 24px;
     font-size: 18px;
     border-radius: 25px;
     cursor: pointer;
     transition: background-color 0.3s ease, transform 0.3s ease;
+    height: 6%;
+    top: 35%;
+    left: 5%;
 }
 .see-more:hover {
-    background-color: #0056b3;
+    background-color: #5A4E42;
     transform: translateY(-3px);
 }
