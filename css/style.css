@@ -14,7 +14,6 @@ header {
     position: relative;
     width: 120px;
     height: 120px;
-    left: -5px;
     border-radius: 60px;
     transition: all 0.3s ease;
 }
@@ -130,19 +129,24 @@ nav {
     transform: scale(1);
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
 }
-
-.items {
-    gap: 20px;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+.footer-container {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 20px;
+    background-color: #C1D8C3;
+    border-radius: 30px;
     width: 80%;
     max-width: 900px;
     margin: 20px auto;
-    background-color: #C1D8C3;
-    border-radius: 30px;
-    padding: 20px;
 }
+
+.items {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
 
 .item {
     border-radius: 15px;
@@ -167,4 +171,42 @@ nav {
     color: #5A4E42;
     padding: 20px;
     font-size: 25px;
+}
+.see-more {
+    text-decoration: none;
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    white-space: nowrap;
+}
+.see-more::after{
+    content: '→';
+    position: absolute;
+    right: -10px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    color: #007bff;
+    font-size: 18px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    transition: 0.3s;
+}
+.see-more:hover::after {
+    background-color: #0056b3;
+    color: white;
 }
