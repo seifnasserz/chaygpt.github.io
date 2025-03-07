@@ -24,6 +24,7 @@ chaygpt.github.io
 ```
 ---
 ## 🏷️ Products
+#tea
 -tea
 -mint tea
 -lemon tea
@@ -31,6 +32,7 @@ chaygpt.github.io
 -green tea
 -ice tea
 
+#hotdrinks
 -Ment
 -Anise
 -Moringa
@@ -38,6 +40,7 @@ chaygpt.github.io
 -Cinnamon
 -sahlab
 
+#caffine
 -coffe
 -cafe au lite
 -latte
@@ -49,6 +52,7 @@ chaygpt.github.io
 -matcha
 -ice coffe
 
+#Fresh juices
  -mango juice
  -orange juice
  -limon juice
