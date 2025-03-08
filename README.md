@@ -59,8 +59,8 @@ chaygpt.github.io
  -limon juice
  -mint limon juice
  -strawberry juice
- -milon juice
- -watermilon juice
+ -melon juice
+ -watermelon juice
  
  
  
