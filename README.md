@@ -19,6 +19,7 @@ chaygpt.github.io
 │   ├── contact.html
 │   └── menu.html
 ├── images
+│   └── productes
 ├── index.html
 └── README.md
 ```
