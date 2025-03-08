@@ -27,32 +27,9 @@ chaygpt.github.io
 │   │   └── menu.html
 │   └── productes
 ├── images
-│   ├── chaygpt-logo.jpg
-│   ├── cofee-beans.jpg
-│   ├── facebook-icon.png
-│   ├── github-icon.png
-│   ├── instagram-icon.png
-│   ├── man-drinking-tea.jpg
+│   ├── *.jpg
 │   └── productes
-│       ├── anise.jpg
-│       ├── cinnamon.jpg
-│       ├── cofee.jpg
-│       ├── hot-choclate.jpg
-│       ├── ice-coffee.jpg
-│       ├── limon.jpg
-│       ├── mango.jpg
-│       ├── ment.jpg
-│       ├── milk-tea.jpg
-│       ├── milon.jpg
-│       ├── mint-lemon.jpg
-│       ├── moringa
-│       ├── orange.jpg
-│       ├── sahlab.jpg
-│       ├── strawberry.jpg
-│       ├── tea1.jpg
-│       ├── tea2.jpg
-│       ├── tea3.jpg
-│       └── watermilon.jpg
+│       └── *.jpg
 └── README.md
 
 ```
