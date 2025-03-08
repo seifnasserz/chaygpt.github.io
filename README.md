@@ -12,15 +12,66 @@ Stay tuned for the best tea experience ever!
 ---
 ```bash
 chaygpt.github.io
+├── index.html
 ├── css
 │   └── style.css
 ├── pages
-│   ├── about.html
-│   ├── contact.html
-│   └── menu.html
+│   ├── about
+│   │   ├── about.css
+│   │   └── about.html
+│   ├── contact
+│   │   ├── contact.css
+│   │   └── contact.html
+│   ├── menu
+│   │   ├── menu.css
+│   │   └── menu.html
+│   └── productes
 ├── images
-├── index.html
+│   ├── *.jpg
+│   └── productes
+│       └── *.jpg
 └── README.md
-```
 
+```
+---
+## 🏷️ Products
+# tea
+-tea
+-mint tea
+-lemon tea
+-milk tea
+-green tea
+-ice tea
+
+# hotdrinks
+-Ment
+-Anise
+-Moringa
+-Hot choclate
+-Cinnamon
+-sahlab
+
+# caffine
+-coffe
+-cafe au lite
+-latte
+-cappuccino
+-espresso
+-mocha
+-flate white
+-nescafe
+-matcha
+-ice coffe
+
+# Fresh juices
+ -mango juice
+ -orange juice
+ -limon juice
+ -mint limon juice
+ -strawberry juice
+ -melon juice
+ -watermelon juice
+ 
+ 
+ 
 
