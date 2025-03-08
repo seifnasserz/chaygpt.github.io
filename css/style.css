@@ -1,20 +1,26 @@
+/* General Styling */
 body {
     margin: 0;
     padding: 0;
-    height: 120vh;
     background: #FFF5E4 ;
     font-family: 'Arial', sans-serif;
 } 
-
+/* Header Styling */
 header {
     position: relative;
 }
-.main-logo img{
+nav {
     display: flex;
-    position: relative;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 50px;
+    background-color: #A68D60 ;
+    border-radius: 0 0 50px 50px;
+    box-shadow: 0px 1px 3px 0.0000001px black;}
+
+.main-logo img{
     width: 120px;
     height: 120px;
-    left: -5px;
     border-radius: 60px;
     transition: all 0.3s ease;
 }
@@ -29,149 +35,215 @@ header {
     color: #e2d5c8;
     margin-left: 200px;
 }
-nav {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 10px 50px;
-    background-color: #BDB395;
-    border-radius: 0 0 50px 50px;
-    box-shadow: 0px 1px 3px 0.0000001px black;
-
-}
 
 .nav-links {
     display: flex;
     gap: 15px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
 }
 .links {
-    all: unset;
     display: inline-block;
-    padding: 10px;
-    margin: 5px;
-    background-color: #D5C7A3;
+    padding: 10px 15px;
+    background-color: #997e64;
     border-radius: 25px;
-    color: #eee;
     font-weight: 900;
     font-size: larger;
     cursor: pointer;
-    transition: all 0.3s ease;
+    transition: 0.3s ease;
 }
-
-.links:hover {
-    background-color: #C1A882;
-    transform: translatey(-3px);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    
-}
-
 .links a {
     text-decoration: none;
-    color: inherit;
+    color: #eee;
     display: block;
     padding: 10px;
     border-radius: 25px;
 }
-
+.links:hover {
+    background-color: #6B4F3D;
+    transform: translatey(-3px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    
+}
+/* Main Section */
 .main-container {
-    margin-left: -15px;
-    margin-right: 10px;
     display: flex;
-    align-items: stretch; 
+    align-items: center; 
     justify-content: center; 
     gap: 15px; 
-    width: 100%; 
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
 } 
 
 .welcome-message {
     font-size: 48px;
     font-weight: 700;
-    font-family: "oswald";
+    font-family: "oswald", sans-serif;
     color: #4A3F35;
 }
 .main-content-text {
     font-family: "cairo";
     line-height: 1.6;
     font-weight: 400;
-    position: relative;
-    left: 30px;
-    width: 80%;
     color: #5A4E42;
+    max-width: 85%;
 }
 .main-content {
     flex: 4;
-    position: relative;
-    display: inline-block;
-    height: auto;
-    padding: 40px 0 40px 100px;
+    padding: 40px ;
     margin: 10px 20px 10px 20px ;
     font-size: 20px;
     border-radius: 40px ;
     background-color: #D5C7A3;
-    width: 60%;
     text-align: left;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
-
+/*Image Styling*/
 .floating-image {
-    position: relative;
-    transform: scale(.95);
     width: auto; 
     height: 370px ; 
-    max-height: 100%;
+    transform: scale(.95);
     border-radius: 40px;
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
     object-fit: cover;
-    top: 10px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
-    
 }
 .floating-image:hover {
     transform: scale(1);
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
 }
+/* Footer Styling */
 
-.items {
-    gap: 20px;
+.products-container {
+    margin: 15px;
     display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    width:1000px;
-    height: 400px;
-    margin: 20px auto;
-    background-color: #C1D8C3;
-    border-radius: 30px;
-    padding: 20px;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0;
+    background-color: #A68D60;
+    border-radius: 50px ;
+    height: 450px;
 }
 
+.items {
+    display: flex;
+    gap: 30px;
+    flex-wrap: nowrap;
+    justify-content: center;
+    width:100%;
+    max-width: 1000px;
+    margin: 20px ;
+    padding: 20px;
+}
 .item {
-    border-radius: 15px;
-    transition: transform 0.3s ease;
-    padding: 10px;
+    flex: 1;
+    transition: transform 0.5s ease;
+    padding: 15px 10px 0px 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
 }
-
 .item:hover {
-    border: 4px solid #eee;
+    background-color: #ccc4ad;
+    transform: translatey(-3px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 15px;
     transform: scale(1.1);
 
 }
-
 .item img {
     border-radius: 15px;
-    border-width: 20px;
-    transition: transform 0.3s ease;
     width: 250px;
     height: 250px;
 }
-
 .item p {
-    font-family: "oswald";
+    font-family: "oswald", sans-serif;
     color: #5A4E42;
-    padding: 20px;
     font-size: 25px;
+}
+/*button*/
+.see-more {
+    position: relative;
+    text-decoration: none;
+    background-color: #4A3F35;
+    color: #eee;
+    padding: 12px 24px;
+    font-size: 18px;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    align-self: center; /* Align with items */
+    margin-left: 20px; /* Add spacing */
+    white-space: nowrap;
+}
+.see-more:hover {
+    background-color: #5A4E42;
+    transform: translateY(-3px);
+}
+
+
+footer {
+    background-color: #716b60;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    border-radius: 50px 50px 0 0;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.footer-section {
+    flex: 1;
+    min-width: 200px;
+    padding: 10px;
+}
+
+.footer-section h3 {
+    margin-bottom: 10px;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 8px;
+}
+
+.footer-section ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-section ul li a:hover {
+    text-decoration: none;
+}
+
+.social-links img {
+    width: 50px;
+    margin: 5px;
+    transition: 0.3s;
+    border-radius: 10px;
+}
+.social-links img:hover {
+    transform: translatey(-3px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.social-links a {
+    list-style: none;
+    text-decoration: none;
+
+}
+.copyright {
+    margin-top: 15px;
+    font-size: 18px;
 }
