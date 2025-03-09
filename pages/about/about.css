@@ -118,6 +118,117 @@ nav {
     transform: scale(.92);
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
 }
+/*DEVS*/
+.devs-container{
+    display: grid;
+    background-color: #5A4E42;
+    margin: 18px;
+    border-radius: 50px;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 80px;
+    padding: 30px;
+    padding-top: 80px;
+}
+
+.dev{
+    background-color: #D5C7A3;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding: 20px;
+    height: 400px;
+    position: relative; 
+    overflow: visible;
+    padding-top: 50px;
+    transition: 0.5s;
+}
+.dev:hover {
+    transform: translatey(-15px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.9);
+}
+.dev-content {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 1fr;
+    padding: 10px 20px;
+}
+.dev-left {
+    text-align: left;
+}
+
+.dev-right {
+    text-align: right;
+}
+.dev > img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    position: absolute;
+    top: -50px; 
+    margin-bottom: 0px;
+    box-shadow: 0 5px 4px rgba(0, 0, 0, 0.2);
+}
+.dev h1 {
+    font-size: 32px;
+    font-weight: 700;
+    font-family: "Oswald", sans-serif;
+    color: #4A3F35;
+    text-align: center;
+    margin-top: 0px;
+}
+.dev h2 {
+    font-size: 26px;
+    font-weight: 700;
+    font-family: "Oswald", sans-serif;
+    color: #4A3F35;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0;
+}
+.dev h3 {
+    font-size: 20px;
+    font-weight: 700;
+    font-family: "Oswald", sans-serif;
+    color: #4A3F35;
+    text-align: center;
+    margin-top: 0;
+}
+.dev p {
+    font-size: 30px;
+    font-weight: 700;
+    font-family: "Oswald", sans-serif;
+    color: #4A3F35;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.skills {
+    display: grid;
+    position: relative;
+    margin: 18px;
+    border-radius: 50px;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 30px;
+    padding-top: 0px;
+}
+.skills img {
+    width: 50px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding: 10px;
+    position: relative; 
+    overflow: visible;
+    padding-top: 0px;
+    transition: 0.5s;
+}
+
 
 /* Footer styling */
 footer {
