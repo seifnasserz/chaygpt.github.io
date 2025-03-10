@@ -236,7 +236,8 @@ nav {
     align-items: center;
     text-align: center;
     padding: 50px;
-    border-radius: 20px;
+    border-radius: 70px;
+    border-bottom: 10px;
 }
 .map-container img {
     position: relative;
