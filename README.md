@@ -1,4 +1,7 @@
-# 🏡 ChayGPT - The Best Tea Shop in Helwan!  
+# 🏡 ChayGPT - The Best Tea Shop in Helwan! 
+قال الله تعالى:
+"وَمَا أُوتِيتُمْ مِنَ الْعِلْمِ إِلَّا قَلِيلًا"
+
 Welcome to **ChayGPT**, the best tea shop in Helwan and the whole world. 🌍☕  
 Stay tuned for the best tea experience ever!  
 
