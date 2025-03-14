@@ -124,13 +124,13 @@ nav {
     border-radius: 50px ;
     height: 560px;
 }
-.products-container h2 {
+.products-container h1 {
     font-family: "cario";
     color: #e2d5c8;
     font-weight: 900;
     font-size: 40px;
 }
-.products-container h2::after {
+.products-container h1::after {
     content: "";
     display: block;
     width: 90px;
