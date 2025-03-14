@@ -1,71 +1,3 @@
-body {
-    margin: 0;
-    padding: 0;
-    background: #FFF5E4 ;
-    font-family: 'Arial', sans-serif;
-} 
-/* Header Styling */
-header {
-    position: relative;
-}
-nav {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 10px 50px;
-    background-color: #A68D60 ;
-    border-radius: 0 0 50px 50px;
-    box-shadow: 0px 1px 3px 0.0000001px black;}
-
-.main-logo img{
-    width: 120px;
-    height: 120px;
-    border-radius: 60px;
-    transition: all 0.3s ease;
-}
-.main-logo img:hover {
-    transform: translatey(-3px);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-.brand-name{
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 40px;
-    font-weight: 900;
-    color: #e2d5c8;
-    margin-left: 200px;
-}
-
-.nav-links {
-    display: flex;
-    gap: 15px;
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-.links {
-    display: inline-block;
-    padding: 10px 15px;
-    background-color: #997e64;
-    border-radius: 25px;
-    font-weight: 900;
-    font-size: larger;
-    cursor: pointer;
-    transition: 0.3s ease;
-}
-.links a {
-    text-decoration: none;
-    color: #eee;
-    display: block;
-    padding: 10px;
-    border-radius: 25px;
-}
-.links:hover {
-    background-color: #6B4F3D;
-    transform: translatey(-3px);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    
-}
-
 .product-area {
     display: flex;
     gap: 30px;
@@ -134,32 +66,33 @@ nav {
 
 .similar-items {
     display: flex;
+    justify-content: center;
+    align-items: flex-end;
     gap: 30px;
     position: relative;
     padding: 40px 15px 40px 15px;
-    height: 400px;
-    width: 90%;
-    left: 5%;
-    right: 5%;
+    height: 500px;
+    width: 80%;
+    left: 10%;
+    right: 10%;
     background-color: #5A4E42;
     border-radius: 30px;
-    flex-direction: row;
-    justify-content: center;
     margin-bottom: 20px;
     margin-top: 20px;
 }
 .similar-items h2 {
+    position: absolute;
+    top: 10px;
+    display: block;
+    margin: 5px 100px;
     font-family: "cairo";
     font-size: 35px;
     padding: 15px;
-    color: #eee;
-    border-radius: 25px;
-    background-color: #4A3F35;
-    height: fit-content;
-    width: fit-content;
+    color: #e2d5c8;
 }
 
-.item {
+.similar-item {
+    display: inline;
     flex: 1;
     transition: transform 0.5s ease;
     padding: 10px;
@@ -171,7 +104,7 @@ nav {
     max-height: 350px;
     cursor: pointer;
 }
-.item:hover {
+.similar-item:hover {
     background-color: #ccc4ad;
     border: 5px;
     transform: translatey(-3px);
@@ -180,20 +113,21 @@ nav {
     transform: scale(1.1);
 
 }
-.item img {
+.similar-item img {
     border-radius: 15px;
     width: 250px;
     height: 250px;
 }
-.item p {
+.similar-item a {
+    text-decoration: none;
     font-family: "oswald", sans-serif;
     color: #eee;
     font-size: 25px;
 }
-.see-more {
+.see-more-products {
     position: relative;
     text-decoration: none;
-    background-color: #4A3F35;
+    background-color: #6B4F3D;
     color: #eee;
     padding: 12px 24px;
     font-size: 18px;
@@ -204,73 +138,7 @@ nav {
     margin-left: 20px; /* Add spacing */
     white-space: nowrap;
 }
-.see-more:hover {
-    background-color: #6B4F3D;
+.see-more-products:hover {
+    background-color: #D5C7A3;
     transform: translateY(-3px);
-}
-
-
-footer {
-    background-color: #716b60;
-    color: white;
-    text-align: center;
-    padding: 20px 0;
-    border-radius: 50px 50px 0 0;
-}
-
-.footer-container {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    padding: 20px;
-}
-
-.footer-section {
-    flex: 1;
-    min-width: 200px;
-    padding: 10px;
-}
-
-.footer-section h3 {
-    margin-bottom: 10px;
-    font-size: 22px;
-    font-weight: 500;
-}
-
-.footer-section ul {
-    list-style: none;
-    padding: 0;
-}
-
-.footer-section ul li {
-    margin-bottom: 8px;
-}
-
-.footer-section ul li a {
-    color: white;
-    text-decoration: none;
-}
-
-.footer-section ul li a:hover {
-    text-decoration: none;
-}
-
-.social-links img {
-    width: 50px;
-    margin: 5px;
-    transition: 0.3s;
-    border-radius: 10px;
-}
-.social-links img:hover {
-    transform: translatey(-3px);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-.social-links a {
-    list-style: none;
-    text-decoration: none;
-
-}
-.copyright {
-    margin-top: 15px;
-    font-size: 18px;
 }
