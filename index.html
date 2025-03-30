@@ -1,160 +1,202 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>ChayGPT</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Rakkas&display=swap" rel="stylesheet">
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="ChayGPT - Premium tea and coffee shop in Helwan serving handcrafted beverages made with love and tradition.">
+        <meta name="keywords" content="tea, coffee, premium tea, arabic coffee, milk tea, iced coffee, Helwan, cafe">
+        <meta name="author" content="ChayGPT">
+        <meta property="og:title" content="ChayGPT - Premium Tea & Coffee">
+        <meta property="og:description" content="Discover our handcrafted beverages made with love and tradition">
+        <meta property="og:image" content="images/chaygpt-logo.jpg">
+        <meta property="og:url" content="https://chaygpt.com">
+        <meta name="twitter:card" content="summary_large_image">
+        <title>ChayGPT</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&family=Oswald:wght@200..700&family=Rakkas&display=swap" rel="stylesheet">
+        <link rel="icon" href="images/chaygpt-logo.jpg" type="image/jpg">
+    </head>
 
 <body>
     <header>
         <nav>
             <div class="main-logo">
-                <img src="images/chaygpt-logo.jpg" >
+                <img src="images/chaygpt-logo.jpg" alt="ChayGPT Logo">
             </div>
             <h1 class="brand-name">ChayGPT</h1>
             <ul class="nav-links">
-                <li class="links"><a href="/chaygpt.github.io/pages/about/about.html">About</a></li>
-                <li class="links"><a href="/chaygpt.github.io/pages/contact/contact.html">Contact</a></li>
-                <li class="links"><a href="/chaygpt.github.io/pages/menu/menu.html">menu</a></li>
+                <li class="links"><a href="./pages/about/about.html">About</a></li>
+                <li class="links"><a href="./pages/contact/contact.html">Contact</a></li>
+                <li class="links"><a href="./pages/menu/menu.html">Menu</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
+        <section class="hero-section">
+            <div class="hero-content">
+                <h2>Experience Premium Tea & Coffee</h2>
+                <p>Discover our handcrafted beverages made with love and tradition</p>
+                <a href="./pages/menu/menu.html" class="cta-button">View Our Menu</a>
+            </div>
+        </section>
+        
         <section class="main-container">
             <div class="main-content">
-                <h2 class="welcome-message"> Welcome to ChayGPT</h2>
-                <p class="main-content-text"> Tea was accidentally discovered by Emperor Shen Nong in 2737 BCE and 
+                <h2 class="welcome-message">Welcome to ChayGPT</h2>
+                <p class="main-content-text">Tea was accidentally discovered by Emperor Shen Nong in 2737 BCE and 
                     is the second most consumed drink after water. All tea types come from the same plant 
                     (Camellia sinensis), and tea bags were invented by mistake. British afternoon tea began in the 
-                    1840s, and iced tea became popular at the 1904 World’s Fair. The oldest tea tree is over 3,200 
+                    1840s, and iced tea became popular at the 1904 World's Fair. The oldest tea tree is over 3,200 
                     years old, and the rarest tea, Da-Hong Pao, can cost over $1 million per kilogram. Fun fact: 
                     Some teas can even glow under UV light! 🍵✨</p>
             </div>
-            <img class="floating-image" src="images/man-drinking-tea.jpg">
+            <img class="floating-image" src="images/man-drinking-tea.jpg" alt="Man enjoying tea at ChayGPT">
         </section>
     
+        <section class="products-container">
+            <h2>Best Sellers</h2>
+            <div class="items">
+                <div class="item"> 
+                    <a href="./pages/products/coffee.html">
+                        <img src="images/productes/coffee.jpg" alt="Premium Arabic Coffee">
+                        <div class="item-info">
+                            <p >Coffee</p>
+                            <p >$20</p>
+                            
+                        </div>
+                    </a>
+                </div>
 
+                <div class="item"> 
+                    <a href="./pages/products/tea.html">
+                        <img src="images/productes/tea3.jpg" alt="Traditional Tea">
+                        <div class="item-info">
+                            <p >Tea</p>
+                            <p >$10</p>
+                            
+                        </div>
+                    </a>
+                </div>
 
+                <div class="item"> 
+                    <a href="./pages/products/milk-tea.html">
+                        <img src="images/productes/milk-tea.jpg" alt="Milk Tea">
+                        <div class="item-info">
+                            <p >Milk Tea</p>
+                            <p >$15</p>
+                            
+                        </div>
+                    </a>
+                </div>
 
+                <div class="item"> 
+                    <a href="./pages/products/iced-coffee.html">
+                        <img src="images/productes/iced-coffee.jpg" alt="Premium Iced Coffee">
+                        <div class="item-info">
+                            <p >Iced Coffee</p>
+                            <p >$18</p>
+                            
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <a class="see-more" href="./pages/menu/menu.html">See More</a>
+        </section>
 
-    <section class="products-container">
-        <h2> Best Sellers </h2>
-        <div class="items">
-
-            <div class="item"> 
-                <a href="../chaygpt.github.io/pages/products/coffee.html"><img src="images/productes/coffee.jpg"></a>
-                <p>Coffee <br><small>20$</small></p>
-                
+        <section class="fun-facts-container">
+            <div class="fact">
+                <img src="images/caracter1.jpg" alt="Tea wisdom illustration">
+                <h3 lang="ar" dir="rtl">إذا شكوت من الصداع فداوه بالشاي و ارتك رأي كل طبيب</h3>
             </div>
 
-            <div class="item"> 
-                <a href=""><img src="images/productes/tea3.jpg"></a>
-                <p>Tea  <br><small>10$</small></p>
+            <div class="fact">
+                <img src="images/caracter2.jpg" alt="Tea quote illustration">
+                <h3 lang="ar" dir="rtl">كل الاشياء تأتي في وقت محدد
+                    إلا الشاي على الرحب و الحب دائماً</h3>
             </div>
 
-            <div class="item"> 
-                <a href=""><img src="images/productes/milk-tea.jpg"></a>
-                <p>Milk tea  <br><small>15$</small></p>
+            <div class="fact">
+                <img src="images/caracter3.jpg" alt="Tea poetry illustration">
+                <h3 lang="ar" dir="rtl">و قيل في الشاي هو عِناق في كأس</h3>
             </div>
 
-            <div class="item"> 
-                <a href="../chaygpt.github.io/pages/products/iced-coffee.html"><img src="images/productes/iced-coffee.jpg"></a>
-                <p>Ice Coffee  <br><small>40$</small></p>
+            <div class="fact">
+                <img src="images/caracter4.jpg" alt="Tea reflection illustration">
+                <h3 lang="ar" dir="rtl">لي أنا مع الشَاي حياة لا أجدُها بجانب البشر</h3>
             </div>
+        </section>
 
-            <div class="item"> 
-                <a href=""><img src="images/coffee-beans.jpg"></a>
-                <p>Cofee Beans - 300g  <br><small>200$</small></p>
+        <section class="map-location-container">
+            <div class="map-container">
+                <img src="images/maps.jpg" alt="Map showing ChayGPT locations">
             </div>
-
-            <a class="see-more" href="pages/menu.html">See more</a>
-        </div>
-    </section>
-
-
-    <section class="fun-facts-container">
-
-        <div class="fact">
-            <img src="images/caracter1.jpg" alt="">
-            <h3>إذا شكوت من الصداع فداوه بالشاي و ارتك رأي كل طبيب</h3>
-
-        </div>
-
-        <div class="fact">
-            <img src="images/caracter2.jpg" alt="">
-            <h3>كل الاشياء تأتي في وقت محدد
-                إلا الشاي على الرحب و الحب دائماً</h3>
-        </div>
-
-        <div class="fact">
-            <img src="images/caracter3.jpg" alt="">
-            <h3>و قيل في الشاي هو عِناق في كأس</h3>
-        </div>
-
-        <div class="fact">
-            <img src="images/caracter4.jpg" alt="">
-            <h3>لي أنا مع الشَاي حياة لا أجدُها بجانب البشر</h3>
-        </div>
-
-    </section>
-
-    <section class="map-location-container">
-        <div class="map-container">
-            <img src="images/maps.jpg" alt="Map">
-        </div>
-        <div class="location-text-container">
-            <h1>COME VISIT US</h1>
-            <h3>Find Us Near You</h3>
-            <a href="https://maps.app.goo.gl/uAUmykbH8FTqLPMT9" class="location-button">VIEW LOCATIONS</a>
-        </div>
-    </section>
-</main>
+            <div class="location-text-container">
+                <h2>COME VISIT US</h2>
+                <h3>Find Us Near You</h3>
+                <p>We have multiple locations across Helwan to serve you better</p>
+                <a href="https://maps.app.goo.gl/uAUmykbH8FTqLPMT9" class="location-button" target="_blank" rel="noopener noreferrer">VIEW LOCATIONS</a>
+            </div>
+        </section>
+        
+        <section class="newsletter-container">
+            <h2>Stay Updated</h2>
+            <p>Subscribe to our newsletter for special offers and updates</p>
+            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley">
+            <form class="newsletter-form">
+                <input type="email" placeholder="Your email address" required>
+                <button type="submit" class="subscribe-button" >Subscribe</button>
+            </form>
+            </a>
+        </section>
+    </main>
 
     <footer>
         <section class="footer-container">
             <div class="footer-section">
                 <h3>About Us</h3>
-                <p>ChayGPT - The best coffee shop in Helwan.</p>
+                <p>ChayGPT - The best coffee shop in Helwan, serving premium tea and coffee since 2022.</p>
             </div>
             <div class="footer-section">
                 <h3>Quick Links</h3>
                 <ul>
                     <li><a href="index.html">Home</a></li>
-                    <li><a href="/pages/menu/menu.html">Menu</a></li>
-                    <li><a href="/pages/contact/contact.html">Contact</a></li>
-                    <li><a href="/pages/menu/menu.html">Order Now</a></li>
+                    <li><a href="./pages/menu/menu.html">Menu</a></li>
+                    <li><a href="./pages/contact/contact.html">Contact</a></li>
+                    <li><a href="./pages/menu/menu.html">Order Now</a></li>
                 </ul>
             </div>
             <div class="footer-section">
                 <h3>Legal</h3>
                 <ul>
-                    <li><a href="#">Privacy Policy</a></li>
-                    <li><a href="#">Terms of Service</a></li>
-                    <li><a href="#">Refund Policy</a></li>
+                    <li><a href="./pages/legal/privacy.html">Privacy Policy</a></li>
+                    <li><a href="./pages/legal/terms.html">Terms of Service</a></li>
+                    <li><a href="./pages/legal/refund.html">Refund Policy</a></li>
                 </ul>
             </div>
             <div class="footer-section">
                 <h3>Follow Us</h3>
                 <div class="social-links">
-                    <a href="https://github.com/ADHAM-KHAIRY/chaygpt.github.io" target ="_blank"> <img src="images/github-icon.png" alt="Github"> </a>
-                    <a href="https://www.facebook.com/" target ="_blank"> <img src="images/facebook-icon.png" alt="Facebook"> </a>
-                    <a href="https://www.instagram.com/" target ="_blank"> <img src="images/instagram-icon.png" alt="Instagram"> </a>
+                    <a href="https://github.com/ADHAM-KHAIRY/chaygpt.github.io" target="_blank" rel="noopener noreferrer">
+                        <img src="images/github-icon.png" alt="Github">
+                    </a>
+                    <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">
+                        <img src="images/facebook-icon.png" alt="Facebook">
+                    </a>
+                    <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">
+                        <img src="images/instagram-icon.png" alt="Instagram">
+                    </a>
                 </div>
             </div>
         </section>
         <p class="copyright">© 2025 ChayGPT Coffee. All Rights Reserved.</p>
     </footer>
-</body>
 
+</body>
 </html>
+
+
+
+
